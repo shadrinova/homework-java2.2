@@ -1,10 +1,10 @@
 public class BonusMilesService {
-    public int calculate(int miles) {
+    public int calculate(int price) {
 
         long amount = 10_000;
         int percent = 20;
 
-        int price = (int) (amount / percent);
+        price = (int) (amount / percent);
         System.out.println("Зачислено " + price + " миль");
         return percent;
     }
